@@ -22,6 +22,11 @@ export default function Login() {
           <Link href="/dashboard" className={styles.submitButton}>
             Sign In
           </Link>
+          <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+            <Link href="/profile" style={{ color: '#666', textDecoration: 'none', fontSize: '0.9rem' }}>
+              View Profile
+            </Link>
+          </div>
         </form>
       </div>
     </div>
