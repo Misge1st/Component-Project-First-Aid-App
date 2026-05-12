@@ -22,9 +22,12 @@ export default function Login() {
           <Link href="/dashboard" className={styles.submitButton}>
             Sign In
           </Link>
-          <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+          <div style={{ marginTop: '1rem', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <Link href="/profile" style={{ color: '#666', textDecoration: 'none', fontSize: '0.9rem' }}>
               View Profile
+            </Link>
+            <Link href="/contacts" style={{ color: '#d32f2f', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 'bold' }}>
+              Emergency Contacts
             </Link>
           </div>
         </form>

@@ -1,0 +1,82 @@
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f7f9fa;
+  font-family: inherit;
+}
+
+.contactsCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fce4e4;
+  border-left: 5px solid #d32f2f;
+  border-radius: 4px;
+}
+
+.contactName {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+  color: #d32f2f;
+}
+
+.contactNumber {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.homeLink {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.homeLink:hover {
+  background-color: #f0f0f0;
+}
